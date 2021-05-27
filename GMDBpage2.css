@@ -1,0 +1,51 @@
+html, body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    height: 6vh;
+    align-items: center;
+    
+}
+
+header > * { /* Children of header flex-box */
+    /* border: 1px solid white; */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button {
+    border-color: orange;
+    background-color: black;
+    color: orange;
+}
+
+.search-bar > * {
+    border-radius: 10%;
+}
+
+nav { /* navbar */
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li { /* navbar components (i.e, home, login, etc) */
+    display: inline;
+    padding-left: 5px;
+}
+
+aside {
+    background-color: gray;
+    color: orange;
+    margin-top: 1vh;
+    border-radius: 2px;
+}
